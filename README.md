@@ -28,5 +28,8 @@ https://github.com/cbrooker/MMM-Todoist
 
 
 **Screenshots of Scenes**
+
+redacted PII
+
 ![IMG_2541](https://github.com/user-attachments/assets/2e81cc76-7f15-4551-961b-c38ac582b710)
 ![IMG_2540](https://github.com/user-attachments/assets/b188265d-6e48-42b4-884e-2259e078d6a7)
