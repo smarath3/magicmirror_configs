@@ -9,10 +9,15 @@ Instructions:
 1. Git clone Magic mirror and in the modules folder, clone following modules:
 
 https://github.com/kolbyjack/MMM-Wallpaper
+
 https://github.com/MMRIZE/MMM-CalendarExt3
+
 https://github.com/MMRIZE/MMM-Scenes2
+
 https://github.com/MMRIZE/MMM-CalendarExt3Journal
+
 https://github.com/MarcLandis/MMM-OpenWeatherMapForecast
+
 https://github.com/cbrooker/MMM-Todoist
 
 
