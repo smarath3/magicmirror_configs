@@ -1,0 +1,114 @@
+/* Custom CSS
+ *
+ * Change color and fonts here.
+ *
+ * Beware that properties cannot be unitless, so for example write '--gap-body: 0px;' instead of just '--gap-body: 0;'
+ */
+
+/* Uncomment and adjust accordingly if you want to import another font from the google-fonts-api: */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap'); */
+
+/*
+:root {
+  --color-text: #999;
+  --color-text-dimmed: #666;
+  --color-text-bright: #fff;
+  --color-background: black;
+
+  --font-primary: "Roboto Condensed";
+  --font-secondary: "Roboto";
+
+  --font-size: 20px;
+  --font-size-small: 0.75rem;
+
+  --gap-body-top: 60px;
+  --gap-body-right: 60px;
+  --gap-body-bottom: 60px;
+  --gap-body-left: 60px;
+
+  --gap-modules: 30px;
+} */
+
+/* Make module headers bigger */ 
+/* .MMM-CalendarExt3Journal, .header { font-size: 2.5em !important; font-weight: bold; } */
+
+/*.region.top.left .module.MMM-OpenWeatherMapForecast {
+  width: 200px; /* or any value you prefer * /
+  max-width: none;
+}*/
+
+.region.top.right .module.MMM-CalendarExt3Agenda {
+  width: 600px; /* or any value you prefer */
+  max-width: none;
+}
+
+/* .CX3A .agenda {
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.CX3A .agenda tr {
+  width: 100%;
+}
+
+.CX3A .agenda td {
+  width: auto;
+  word-break: break-word;
+  text-align: left;
+} */
+
+.CX3A .agenda {
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+/* Make each cell use available space and wrap text */
+.CX3A .agenda td {
+  width: auto !important;
+  word-break: break-word;
+  text-align: left;
+  padding-left: 1em; /* Optional: add indentation */
+}
+
+/* Increase indentation for all agenda cells */
+.CX3A .agenda td {
+  padding-left: 2em; /* Adjust as needed */
+}
+
+.region.top.right {
+  max-width: none !important;
+}
+
+/* Custom styling for MMM-CalendarExt3Journal headers */
+.MMM-CalendarExt3Journal header {
+  font-size: 18px; /* var(--font-size-small; */
+  font-weight: 600;
+  /* color: #ffd700; /* Gold color */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 8px;
+  margin-bottom: 20px; /* Increased margin bottom */
+  border-bottom: 2px solid #ffd700;
+  display: block; /* Ensure header is block element */
+  position: relative; /* Add positioning context */
+}
+
+/* Add spacing between header and calendar content */
+.MMM-CalendarExt3Journal .module-content {
+  margin-top: 15px; /* Add space after header */
+  position: relative; /* Ensure proper stacking */
+}
+
+/* Specific styling for SPOUSE CALENDAR header */
+.MMM-CalendarExt3Journal .SPOUSE_ROLE header {
+  color: #ff69b4; /* Hot pink color */
+  border-bottom-color: #ff69b4;
+  margin-bottom: 25px; /* Consistent spacing */
+}
+
+/* Specific styling for FAMILY CALENDAR header */
+.MMM-CalendarExt3Journal .FAMILY_ROLE header {
+  color: #98fb98; /* Pale green color */
+  border-bottom-color: #98fb98;
+  margin-bottom: 25px; /* Consistent spacing */
+}
